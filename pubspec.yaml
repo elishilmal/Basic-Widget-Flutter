@@ -1,0 +1,28 @@
+name: movie_streaming_app
+description: A Flutter movie streaming app
+publish_to: "none" # biar gak error waktu build lokal
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ✅ versi terbaru dan kompatibel dengan Flutter 3.24+
+  carousel_slider: ^5.0.0
+
+  # Icon bawaan gaya iOS
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # linting rules (untuk analisis kode)
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
